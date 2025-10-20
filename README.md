@@ -126,9 +126,28 @@ Manual smoke test:
 
 ---
 
-If you'd like, I can:
+// ...existing code...
 
-- Add a small `.env.example` file with recommended variables.
-- Add quick Postman collection or examples for common API calls.
+## Screenshots
 
-Tell me which you'd prefer and I'll add it.
+Below are example screenshots of the application. Put your images in `docs/screenshots/` and update filenames/captions as needed.
+
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="Home screen" width="800"/>
+  <br/>
+  <em>Figure 1 — Home screen</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/player.png" alt="Player screen" width="800"/>
+  <br/>
+  <em>Figure 2 — Player screen</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/settings.png" alt="Settings" width="800"/>
+  <br/>
+  <em>Figure 3 — Settings</em>
+</p>
+
+// ...existing code...
