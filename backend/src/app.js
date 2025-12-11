@@ -7,10 +7,16 @@ const foodPartnerRoutes = require('./routes/food-partner.routes');
 const cors = require('cors');
 
 const app = express();
-app.use(cors({
-    origin: "http://localhost:5173",
-    credentials: true
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",                    // local dev
+      "https://snack-stream-frontend.vercel.app", // deployed client
+    ],
+    credentials: true,
+  })
+);
+
 app.use(cookieParser());
 app.use(express.json());
 
